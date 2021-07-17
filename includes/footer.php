@@ -15,9 +15,9 @@
     <div class="footer bg-info">
         <td align="middle">
             <span class="copyright">
-            <h5> Kafue Ward</h5>
-                All Rights Reserved. <br> Designed and Maintained By: Charles Kombe 
-                SIN 2012340923
+            <h5"> Kafue Ward</h5>
+               <p> All Rights Reserved. <br> Designed and Maintained By: Charles Kombe 
+                SIN 2012340923</p>
         </span>
         </td>
 </div>

@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+   
     
 </head>
 <body>
@@ -19,12 +19,12 @@
 <a href="index.php"> <span class="navbar-brand mb-0 h1 text-white">Kafue Ward</span></a>
   <ul class="navbar-nav">
       <li class="nav-item ">
-          <a class="nav-link text-white" href="#">
+          <a class="nav-link text-white" href="newsfeed/index.php">
             News Feed
           </a>
       </li>
       <li class="nav-item">
-          <a class="nav-link text-white " href="#">
+          <a class="nav-link text-white " href="contact_us.php">
             Contact Us
           </a>
       </li>

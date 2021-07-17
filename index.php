@@ -1,19 +1,8 @@
-<!DOCTYPE html>
 <?php
     include '../Kafue_Ward/includes/header.php';
 ?>
-
-    <div class="container-fluid">
-    <div class="col-md-12">
-        <div class="row">
-            <div class="col-md-2" style="margin-left: -30px;">
-<?php
-    include '../Kafue_Ward/includes/newsfeed.php';
-    ?>
-  </div>
-                <div class="col-md-10">
-                    <div class="col-md-12">
-                        <div class="row">
+<!DOCTYPE html>
+<title>Home Page</title>
 
 <body>
   
@@ -49,7 +38,7 @@
        }
    </style>
    
-    <div class="jumbotron">
+    <div class="jumbotron col-lg-8 col-md-8 col-sm-8 col-xs-8 offset-2 float-md-center">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="myCarousel" data-slide-to="0" class="active"></li>
@@ -132,12 +121,22 @@
                 }
             </style>
                     <h1 class="display-4">Utilities</h1>
-                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <p>Below are some of the links to some of the utilities in Kafue</p>
                     <hr class="my-4">
-                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                    </p>
+                    <a  href="https://www.kafuenationalparkzambia.com/" class="lead">Tourism</a>
+                    <hr class="my-4">
+                    <a href="https://web.facebook.com/Kafue-General-Hospital-475396713009384/" class="lead">Health</a>
+                    <hr>
+                    <a href="https://www.mukambi.com/" class="lead">Accommodation</a>
+                    <hr>
+                    <a href="http://www.lwsc.com.zm/" class="lead">Water and Sanitation</a>
+                    <hr>
+                    <a href="https://web.facebook.com/Kafue-River-Mall-263709657342992/" class="lead">Businesses</a>
+                    <hr>
+                    <a href="https://www.zanaco.co.zm/" class="lead">Banks</a>
+                    
+                    <hr>
+                    
         </div>
     </div>
     

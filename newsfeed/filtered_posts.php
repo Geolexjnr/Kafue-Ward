@@ -8,7 +8,7 @@
 		$posts = getPublishedPostsByTopic($topic_id);
 	}
 ?>
-	<title>LifeBlog | Home </title>
+	<title>News | Home </title>
 </head>
 <body>
 <div class="container">

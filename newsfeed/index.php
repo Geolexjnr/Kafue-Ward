@@ -8,7 +8,7 @@
 <?php $posts = getPublishedPosts(); ?>
 
 <?php require_once( ROOT_PATH . 'includes/head_section.php') ?>
-	<title>LifeBlog | Home </title>
+	<title>News | Home </title>
 </head>
 <body>
 	<!-- container - wraps whole page -->

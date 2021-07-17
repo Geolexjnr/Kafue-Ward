@@ -11,11 +11,14 @@ body {
   min-height: 100%;
 }
 /* HEADINGS DEFAULT */
-h1, h2, h3, h4, h5, h6 { color: #444; font-family: 'Averia Serif Libre', cursive; }
+h1, h3, h4, h5, h6 { color: #444; font-family: 'Averia Serif Libre', cursive; }
 a { text-decoration: none; }
 ul, ol { margin-left: 40px; }
 hr { margin: 10px 0px; opacity: .25; }
 
+#footer h2{
+	color: white;
+}
 /* FORM DEFAULTS */
 form h2 {
 	margin: 25px auto;
@@ -39,7 +42,7 @@ form input:focus {
 /* BUTTON DEFAULT */
 .btn {
 	color: white;
-	background: #4E6166;
+	background: #0275d8;
 	text-align: center;
 	border: none;
 	border-radius: 5px;
@@ -57,7 +60,7 @@ form input:focus {
 .navbar {
 	margin: 0 auto;
     overflow: hidden;
-	background-color: #3E606F;
+	background-color: #0275d8;
     border-radius: 0px 0px 6px 6px;
 }
 .navbar ul {
@@ -101,7 +104,7 @@ form input:focus {
   bottom: 0;
   left: 0;
   color: white;
-  background-color: #73707D;
+  background-color: #0275d8;
   text-align: center;
   width: 80%;
   margin: 20px auto 0px;
@@ -114,7 +117,7 @@ form input:focus {
 	min-height: 400px;
 	color: white;
 	border-radius: 5px;
-	background-image: url('../images/banner.jpg');
+	background-image: url('../images/banner2.jpg');
 	background-size: 100% 100%;
 }
 .banner .welcome_msg {
@@ -172,9 +175,13 @@ form input:focus {
 }
 .banner .login_div form button {
 	display: block;
-	background: #006384;
+	background: #0275d8;
 	margin-left: 20%;
 } 
+
+#join_us{
+	margin-top: 3.4rem;
+}
 
 /* CONTENT */
 .content {
@@ -295,7 +302,7 @@ form input:focus {
 	padding: 10px;
 	text-align: center;
 	border-radius: 3px 3px 0px 0px;
-	background: #3E606F;
+	background: #0275d8;
 }
 .post-sidebar .card .card-header h2 {
 	color: white;

@@ -4,7 +4,7 @@
 
 <?php include('includes/head_section.php'); ?>
 
-<title>LifeBlog | Sign up </title>
+<title>News | Sign up </title>
 </head>
 <body>
 <div class="container">

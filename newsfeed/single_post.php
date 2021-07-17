@@ -7,7 +7,7 @@
 	$topics = getAllTopics();
 ?>
 <?php include('includes/head_section.php'); ?>
-<title> <?php echo $post['title'] ?> | LifeBlog</title>
+<title> <?php echo $post['title'] ?> | News</title>
 </head>
 <body>
 <div class="container">
