@@ -7,6 +7,6 @@
 		die("Error connecting to database: " . mysqli_connect_error());
 	}
 
-	define ('ROOT_PATH', realpath(dirname(__FILE__).'/opt/lampp/htdocs/Kafue_Ward/newsfeed/'));
+	define ('ROOT_PATH', realpath(dirname(__FILE__).'/opt/lampp/htdocs/Kafue_Ward/newsfeed/config.php'));
 	define('BASE_URL', 'http://localhost/Kafue_Ward/newsfeed/');
 ?>
