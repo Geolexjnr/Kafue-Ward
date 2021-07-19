@@ -10,7 +10,7 @@
 <body>
 	<!-- admin navbar -->
 	<?php include(ROOT_PATH . 'includes/navbar.php') ?>
-    
+
 
 	<div class="container content">
 		<!-- Left side menu -->
@@ -44,12 +44,13 @@
 							<td>
 								<a 	target="_blank"
 								href="<?php echo BASE_URL . 'single_post.php?post-slug=' . $post['slug'] ?>">
-									<?php echo $post['title']; ?>	
+									<?php echo $post['title']; ?>
 								</a>
 							</td>
-                            <td><?php echo $post['author']; ?></td>
+							<td><?php echo $post['author']; ?></td>
+
 							<td><?php echo $post['views']; ?></td>
-							
+
 							<!-- Only Admin can publish/unpublish post -->
 							<?php if ($_SESSION['user']['role'] == "Admin" ): ?>
 								<td>
@@ -71,7 +72,7 @@
 								</a>
 							</td>
 							<td>
-								<a  class="fa fa-trash btn delete" 
+								<a  class="fa fa-trash btn delete"
 									href="create_post.php?delete-post=<?php echo $post['id'] ?>">
 								</a>
 							</td>
